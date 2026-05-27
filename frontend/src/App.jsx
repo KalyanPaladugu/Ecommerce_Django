@@ -1,20 +1,15 @@
 import { useState,useEffect } from 'react'
-
+import ProductList from "./pages/ProductList";
 
 
 function App() {
-  const [message, setMessage] = useState('')
-useEffect(() => {
-  fetch('http://localhost:8000/api/')
-    .then(response => response.json())
-    .then(data => setMessage(data.message))
-    .catch(error => console.error('Error fetching data:', error));
-}, []);
   return (
-    <>
-      <h1>{message}</h1>
-    </>
+   <div>
+      <ProductList />
+    </div>
   )
 }
 
 export default App
+
+

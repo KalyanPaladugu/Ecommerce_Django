@@ -56,3 +56,5 @@ email:admin@gmail.com
 password:pwd
 ```
 - run server `python manage.py runserver`
+- after creating models run `python manage.py makemigrations`
+- run `python manage.py migrate`
