@@ -55,3 +55,4 @@ superusername:admin
 email:admin@gmail.com
 password:pwd
 ```
+- run server `python manage.py runserver`
